@@ -1,5 +1,11 @@
 airflow commands 
 
+- create python virtual env
+python3 -m venv py_env
+
+- activate python env 
+source py_env/bin/activate 
+
 - set airflow home 
 export AIRFLOW_HOME=/Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow
 

@@ -1,0 +1,7 @@
+[2024-09-01T22:56:29.960+0530] {processor.py:186} INFO - Started process (PID=2307) to work on /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-01T22:56:29.960+0530] {processor.py:914} INFO - Processing file /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-09-01T22:56:29.961+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:29.961+0530] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-01T22:56:29.965+0530] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-09-01T22:56:30.001+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:30.000+0530] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T22:56:30.006+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:30.006+0530] {dag.py:4138} INFO - Setting next_dagrun for example_setup_teardown to 2024-08-31 00:00:00+00:00, run_after=2024-09-01 00:00:00+00:00
+[2024-09-01T22:56:30.013+0530] {processor.py:208} INFO - Processing /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.055 seconds

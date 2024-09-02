@@ -1,0 +1,18 @@
+[2024-09-01T22:55:45.578+0530] {processor.py:186} INFO - Started process (PID=2215) to work on /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py
+[2024-09-01T22:55:45.578+0530] {processor.py:914} INFO - Processing file /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py for tasks to queue
+[2024-09-01T22:55:45.579+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:45.578+0530] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py
+[2024-09-01T22:55:45.592+0530] {processor.py:925} INFO - DAG(s) 'welcome_dag' retrieved from /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py
+[2024-09-01T22:55:45.666+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:45.666+0530] {override.py:1858} INFO - Created Permission View: can edit on DAG:welcome_dag
+[2024-09-01T22:55:45.670+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:45.670+0530] {override.py:1858} INFO - Created Permission View: can delete on DAG:welcome_dag
+[2024-09-01T22:55:45.672+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:45.671+0530] {override.py:1858} INFO - Created Permission View: can read on DAG:welcome_dag
+[2024-09-01T22:55:45.672+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:45.672+0530] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T22:55:45.703+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:45.703+0530] {dag.py:3234} INFO - Creating ORM DAG for welcome_dag
+[2024-09-01T22:55:45.706+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:45.706+0530] {dag.py:4138} INFO - Setting next_dagrun for welcome_dag to 2024-08-31 23:00:00+00:00, run_after=2024-09-01 23:00:00+00:00
+[2024-09-01T22:55:45.711+0530] {processor.py:208} INFO - Processing /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py took 0.136 seconds
+[2024-09-01T22:57:26.184+0530] {processor.py:186} INFO - Started process (PID=2362) to work on /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py
+[2024-09-01T22:57:26.185+0530] {processor.py:914} INFO - Processing file /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py for tasks to queue
+[2024-09-01T22:57:26.186+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:57:26.186+0530] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py
+[2024-09-01T22:57:26.202+0530] {processor.py:925} INFO - DAG(s) 'welcome_dag' retrieved from /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py
+[2024-09-01T22:57:26.248+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:57:26.247+0530] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T22:57:26.258+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:57:26.258+0530] {dag.py:4138} INFO - Setting next_dagrun for welcome_dag to 2024-08-31 23:00:00+00:00, run_after=2024-09-01 23:00:00+00:00
+[2024-09-01T22:57:26.269+0530] {processor.py:208} INFO - Processing /Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow/dags/welcome_dag.py took 0.088 seconds

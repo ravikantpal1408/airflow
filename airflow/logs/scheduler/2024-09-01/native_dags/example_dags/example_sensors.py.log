@@ -1,0 +1,8 @@
+[2024-09-01T22:56:31.773+0530] {processor.py:186} INFO - Started process (PID=2308) to work on /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-01T22:56:31.773+0530] {processor.py:914} INFO - Processing file /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-01T22:56:31.774+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:31.774+0530] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-01T22:56:31.781+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-01T22:56:31.814+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:31.813+0530] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-01T22:56:31.824+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:31.824+0530] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T22:56:31.827+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:31.827+0530] {dag.py:4138} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-01T22:56:31.833+0530] {processor.py:208} INFO - Processing /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds

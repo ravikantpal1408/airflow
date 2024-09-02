@@ -1,0 +1,23 @@
+[2024-09-01T22:57:31.124+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-01T22:57:31.130+0530] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: welcome_dag.print_random_quote manual__2024-09-01T17:27:25.872106+00:00 [queued]>
+[2024-09-01T22:57:31.133+0530] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: welcome_dag.print_random_quote manual__2024-09-01T17:27:25.872106+00:00 [queued]>
+[2024-09-01T22:57:31.133+0530] {taskinstance.py:2856} INFO - Starting attempt 1 of 1
+[2024-09-01T22:57:31.138+0530] {taskinstance.py:2879} INFO - Executing <Task(PythonOperator): print_random_quote> on 2024-09-01 17:27:25.872106+00:00
+[2024-09-01T22:57:31.143+0530] {logging_mixin.py:190} WARNING - /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2374) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-09-01T22:57:31.144+0530] {standard_task_runner.py:72} INFO - Started process 2375 to run task
+[2024-09-01T22:57:31.144+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'welcome_dag', 'print_random_quote', 'manual__2024-09-01T17:27:25.872106+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/welcome_dag.py', '--cfg-path', '/var/folders/y3/3lr7z0n95q5fs3pfk483y9zr0000gn/T/tmpvupsdkz_']
+[2024-09-01T22:57:31.145+0530] {standard_task_runner.py:105} INFO - Job 5: Subtask print_random_quote
+[2024-09-01T22:57:31.160+0530] {task_command.py:467} INFO - Running <TaskInstance: welcome_dag.print_random_quote manual__2024-09-01T17:27:25.872106+00:00 [running]> on host ravis-macbook-air.local
+[2024-09-01T22:57:31.182+0530] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='welcome_dag' AIRFLOW_CTX_TASK_ID='print_random_quote' AIRFLOW_CTX_EXECUTION_DATE='2024-09-01T17:27:25.872106+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-01T17:27:25.872106+00:00'
+[2024-09-01T22:57:31.183+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-01T22:57:31.183+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-01T22:57:31.183+0530] {logging_mixin.py:190} INFO - Current task name:print_random_quote state:running start_date:2024-09-01 17:27:31.130288+00:00
+[2024-09-01T22:57:31.183+0530] {logging_mixin.py:190} INFO - Dag name:welcome_dag and current dag run status:running
+[2024-09-01T22:57:31.183+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-01T23:02:28.447+0530] {local_task_job_runner.py:240} INFO - ::endgroup::
+[2024-09-01T23:02:28.451+0530] {process_utils.py:132} INFO - Sending 15 to group 2375. PIDs of all processes in the group: [2375]
+[2024-09-01T23:02:28.451+0530] {process_utils.py:87} INFO - Sending the signal 15 to group 2375
+[2024-09-01T23:02:32.897+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-01T23:02:32.901+0530] {taskinstance.py:2593} INFO - Dependencies not met for <TaskInstance: welcome_dag.print_random_quote manual__2024-09-01T17:27:25.872106+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2024-09-01T23:02:32.901+0530] {taskinstance.py:2593} INFO - Dependencies not met for <TaskInstance: welcome_dag.print_random_quote manual__2024-09-01T17:27:25.872106+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2024-09-01T23:02:32.902+0530] {local_task_job_runner.py:166} INFO - Task is not able to be run

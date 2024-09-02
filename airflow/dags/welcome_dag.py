@@ -21,10 +21,22 @@ dag = DAG(
     schedule_interval='0 23 * * *',
     catchup=False
 )
-
+    
 print_welcome_task = PythonOperator(
     task_id = 'print_welcome',
     python_callable = print_welcome,
+    dag=dag
+)
+
+print_date_task = PythonOperator(
+    task_id = 'print_date',
+    python_callable = print_date,
+    dag=dag
+)
+
+print_random_quote = PythonOperator(
+    task_id = 'print_random_quote',
+    python_callable = print_random_quote,
     dag=dag
 )
 

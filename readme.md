@@ -6,6 +6,9 @@ python3 -m venv py_env
 - activate python env 
 source py_env/bin/activate 
 
+- run airflow scheduler 
+airflow scheduler
+
 - set airflow home 
 export AIRFLOW_HOME=/Users/ravipal/Desktop/Workspace/airflow_tutorial/airflow
 

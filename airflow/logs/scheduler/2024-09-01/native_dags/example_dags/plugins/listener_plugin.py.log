@@ -1,0 +1,5 @@
+[2024-09-01T22:55:51.153+0530] {processor.py:186} INFO - Started process (PID=2236) to work on /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-09-01T22:55:51.154+0530] {processor.py:914} INFO - Processing file /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-09-01T22:55:51.154+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:51.154+0530] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-09-01T22:55:51.155+0530] {processor.py:927} WARNING - No viable dags retrieved from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-09-01T22:55:51.186+0530] {processor.py:208} INFO - Processing /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.034 seconds

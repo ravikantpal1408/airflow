@@ -1,0 +1,7 @@
+[2024-09-01T22:57:02.134+0530] {processor.py:186} INFO - Started process (PID=2337) to work on /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-09-01T22:57:02.134+0530] {processor.py:914} INFO - Processing file /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-09-01T22:57:02.135+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:57:02.135+0530] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-09-01T22:57:02.152+0530] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-09-01T22:57:02.190+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:57:02.190+0530] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T22:57:02.195+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:57:02.195+0530] {dag.py:4138} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-09-01T22:57:02.203+0530] {processor.py:208} INFO - Processing /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.072 seconds

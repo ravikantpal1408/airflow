@@ -1,0 +1,7 @@
+[2024-09-01T22:55:58.436+0530] {processor.py:186} INFO - Started process (PID=2251) to work on /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-09-01T22:55:58.437+0530] {processor.py:914} INFO - Processing file /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-09-01T22:55:58.437+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:58.437+0530] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-09-01T22:55:58.452+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-09-01T22:55:58.485+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:58.484+0530] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T22:55:58.489+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:55:58.489+0530] {dag.py:4138} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-09-01T22:55:58.495+0530] {processor.py:208} INFO - Processing /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.061 seconds

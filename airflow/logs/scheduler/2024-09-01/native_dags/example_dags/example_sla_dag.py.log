@@ -1,0 +1,7 @@
+[2024-09-01T22:56:20.547+0530] {processor.py:186} INFO - Started process (PID=2296) to work on /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-09-01T22:56:20.547+0530] {processor.py:914} INFO - Processing file /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-09-01T22:56:20.548+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:20.547+0530] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-09-01T22:56:20.563+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-09-01T22:56:20.596+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:20.596+0530] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T22:56:20.604+0530] {logging_mixin.py:190} INFO - [2024-09-01T22:56:20.604+0530] {dag.py:4138} INFO - Setting next_dagrun for example_sla_dag to 2024-09-01 17:24:00+00:00, run_after=2024-09-01 17:26:00+00:00
+[2024-09-01T22:56:20.610+0530] {processor.py:208} INFO - Processing /Users/ravipal/Desktop/Workspace/airflow_tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.065 seconds

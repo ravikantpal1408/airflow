@@ -25,4 +25,4 @@ airflow users create \
 
 airflow users create --username admin --firstname admin --lastname admin --role Admin --email admin@domain.com
 
-password - ravi1408
+__password__ - asdzxc@987
